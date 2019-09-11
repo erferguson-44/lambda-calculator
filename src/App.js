@@ -6,15 +6,15 @@ import { Display } from "./components/DisplayComponents/Display"
 
 import { Numbers } from "./components/ButtonComponents/NumberButtons/Numbers"
 
-import { NumberButton } from "./components/ButtonComponents/NumberButtons/NumberButton";
+// import { NumberButton } from "./components/ButtonComponents/NumberButtons/NumberButton";
 
 import { Operators } from "./components/ButtonComponents/OperatorButtons/Operators"
 
-import { OperatorButton } from "./components/ButtonComponents/OperatorButtons/OperatorButton"
+// import { OperatorButton } from "./components/ButtonComponents/OperatorButtons/OperatorButton"
 
 import { Specials } from "./components/ButtonComponents/SpecialButtons/Specials"
 
-import { SpecialButton } from "./components/ButtonComponents/SpecialButtons/SpecialButton"
+// import { SpecialButton } from "./components/ButtonComponents/SpecialButtons/SpecialButton"
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
@@ -28,26 +28,41 @@ function App() {
 
   return (
     <div className="container">
+      
+      <section className="sectionLogo">
       <Logo />
+      </section>
+
+      <section className="sectionDisplay">
       <Display />
-      {/* <Numbers />
-      <Operators />
-      <Specials /> */}
+      </section>
 
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div className="operators">
-        <Operators />
+
+        <div className="specialsContainer">
+          <Specials />
         </div>
 
-        <div className="numbers">
-        <Numbers />
+        <div 
+        className="numbersContainer">
+          <Numbers />
+        </div>
+        
+
+
+
+
+
+      <section className="sectionOperators">
+
+        <div className="containerOperators">
+          <Operators />
         </div>
 
-        <div className="specials">
-        <Specials />
-        </div>
+      </section>
       </div>
+    
     </div>
   );
 }

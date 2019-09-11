@@ -21,21 +21,39 @@
     font-size: 5.0rem;
   }
 
-  .App{
+  .sectionLogo{
+      padding-top:20px;
+      padding-left:35px;
+  }
+  .sectionDisplay{
       display: flex;
-      flex-direction:row;
-      /* flex-wrap:wrap; */
-      /* justify-content: space-evenly;
-      align-items: stretch; */
+      justify-content: center;
   }
-  .operators{
 
+  .App{
+      /* display:flex;
+      flex-direction:column; */
   }
-  .numbers{
 
+  .sectionOperators{
+    border:1px solid black;
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    width:500px;
+    height:75px;
   }
-  .specials{
+
+  .containerOperators{
+    border:1px solid purple;
   }
+
+
+
+
+
+
+
 
 
 .btnNum{
@@ -47,14 +65,14 @@
     border-radius:50%;
 }
 .btnOp{
-    background:lightcyan;
+    background:white;
     font-size: 16px;
     color:black;
     height:50px;
     width:50px;
     border-radius:50%;
 }
-.btnSpec{
+.btnSpecial{
     background:blue;
     font-size: 16px;
     color:white;
