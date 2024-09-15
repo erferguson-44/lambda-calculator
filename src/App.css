@@ -20,3 +20,63 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .sectionLogo{
+      padding-top:20px;
+      padding-left:35px;
+  }
+  .sectionDisplay{
+      display: flex;
+      justify-content: center;
+  }
+
+  .App{
+      /* display:flex;
+      flex-direction:column; */
+  }
+
+  .sectionOperators{
+    border:1px solid black;
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    width:500px;
+    height:75px;
+  }
+
+  .containerOperators{
+    border:1px solid purple;
+  }
+
+
+
+
+
+
+
+
+
+.btnNum{
+    background:navy;
+    font-size: 16px;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.btnOp{
+    background:white;
+    font-size: 16px;
+    color:black;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.btnSpecial{
+    background:blue;
+    font-size: 16px;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
